@@ -8,5 +8,8 @@ client.on('message', msg => {
   if (msg.content === 'hi') {
     msg.reply('Hello')
   }
+  if (msg.content === 'how are you') {
+    msg.reply('Fine, Thank yoy')
+  }
 })
 client.login(process.env.BOT_TOKEN)
